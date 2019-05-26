@@ -34,5 +34,15 @@ From NAND and NOT to build AND Gate:
 | 1    | 0    | 0      |
 | 1    | 1    | 1      |
 
-- ​	Since all outputs of NAND gate are opposite to AND gate, the implementation should be first using results of NAND gate and then using NOT gate to get all opposite values of NAND gate. 
+- Since all outputs of NAND gate are opposite to AND gate, the implementation should be first using results of NAND gate and then using NOT gate to get all opposite values of NAND gate. 
 
+From NAND and NOT to build OR Gate:
+
+| A    | B    | OUTPUT |
+| ---- | ---- | ------ |
+| 0    | 0    | 0      |
+| 0    | 1    | 1      |
+| 1    | 0    | 1      |
+| 1    | 1    | 1      |
+
+- Differences between OR and NAND are a=b=0 and a=b=1. Thus, the implementation should be using NOT gate to get inverse value of  input A and input B, and then it should be using NAND to get values by result of NOT.
