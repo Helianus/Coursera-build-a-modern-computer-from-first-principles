@@ -46,3 +46,30 @@ From NAND and NOT to build OR Gate:
 | 1    | 1    | 1      |
 
 - Differences between OR and NAND are a=b=0 and a=b=1. Thus, the implementation should be using NOT gate to get inverse value of  input A and input B, and then it should be using NAND to get values by result of NOT.
+
+From NOT and AND to build XOR Gate:
+
+| A    | B    | OUTPUT |
+| ---- | ---- | ------ |
+| 0    | 0    | 0      |
+| 0    | 1    | 1      |
+| 1    | 0    | 1      |
+| 1    | 1    | 0      |
+
+- Xor gate = (a And Not(b)) Or (Not(a) And (b))
+
+From NOT and AND and OR to build MUX Gate:
+
+| a    | b    | sel  | OUTPUT |
+| ---- | ---- | ---- | ------ |
+| 0    | 0    | 0    | 0      |
+| 0    | 1    | 0    | 0      |
+| 1    | 0    | 0    | 1      |
+| 1    | 1    | 0    | 1      |
+| 0    | 0    | 1    | 0      |
+| 0    | 1    | 1    | 1      |
+| 1    | 0    | 1    | 0      |
+| 1    | 1    | 1    | 1      |
+
+- Mux gate has a sel to control its output. If sel == 1: out=a, else out=b.
+- Mux =( a And Not(sel)) Or (b And sel)
