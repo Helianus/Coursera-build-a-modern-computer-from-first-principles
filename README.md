@@ -1,4 +1,4 @@
-# Coursera-build-a-modern-computer-from-first-principles
+# Coursera-nand2tetris
 
 ## Part 1
 
