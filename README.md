@@ -191,9 +191,6 @@ From DMUX to build DMUX4WAY Gate:
 From DMUX to build DMUX8WAY Gate:
 
 - Same as DMux4way.
-<<<<<<< HEAD
-
-
 
 ### Week 2
 
