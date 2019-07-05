@@ -321,7 +321,12 @@ From Inc16, Mux16 and 16-Bit Register to build **PC**:
 
 - Multiplication is defined by sum of two numbers, which implemented by a loop. In hack language, it should be implemented jump features.
 
+**Fill**:
 
+| RAM[16384] | RAM[17648] | RAM[18349] | RAM[19444] | RAM[20771] | RAM[21031] | RAM[22596] | RAM[23754] | RAM[24575] |
+| ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| 0          | 0          | 0          | 0          | 0          | 0          | 0          | 0          | 0          |
+| -1         | -1         | -1         | -1         | -1         | -1         | -1         | -1         | -1         |
+| 0          | 0          | 0          | 0          | 0          | 0          | 0          | 0          | 0          |
 
-
-
+- Fill is a program that runs an infinite loop that reads user inputs from keyboard.
