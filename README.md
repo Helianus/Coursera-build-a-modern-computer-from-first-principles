@@ -304,3 +304,24 @@ From Inc16, Mux16 and 16-Bit Register to build **PC**:
 - We should use Inc16 anywhere, because PC must be increased by 1.
 - Using Mux to determine if load/reset/inc == 1.
 
+
+
+### Week4
+
+**Mult**:
+
+| RAM[0] | RAM[1] | RAM[2] |
+| ------ | ------ | ------ |
+| 0      | 0      | 0      |
+| 1      | 0      | 0      |
+| 0      | 2      | 0      |
+| 3      | 1      | 1      |
+| 2      | 4      | 8      |
+| 6      | 7      | 42     |
+
+- Multiplication is defined by sum of two numbers, which implemented by a loop. In hack language, it should be implemented jump features.
+
+
+
+
+
