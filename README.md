@@ -330,3 +330,23 @@ From Inc16, Mux16 and 16-Bit Register to build **PC**:
 | 0          | 0          | 0          | 0          | 0          | 0          | 0          | 0          | 0          |
 
 - Fill is a program that runs an infinite loop that reads user inputs from keyboard.
+
+
+
+### Week5
+
+**Memory**:
+
+- Hack's data memory (RAM) chip
+- connect with **Screen** (16384 - 24575)and **Keyboard** (24576) chips
+- DMux4Way and Mux4Way16 can be used to select two RAMs, Screen and Keyboard
+
+**CPU**:
+
+- Including an **ALU** component which can execute HACK instructions 
+- Including a set of registers and some control logic used to fetch and decode instructions
+- Including a program counter used for counting the address of the next instruction
+
+**Computer**:
+
+- The Hack computer, including CPU, ROM and RAM.
